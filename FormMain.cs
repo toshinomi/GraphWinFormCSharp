@@ -102,6 +102,7 @@ namespace GraphWinFormCSharp
                 ReadCsv(openFileDlg.FileName);
                 Draw();
             }
+
             return;
         }
 
@@ -119,6 +120,8 @@ namespace GraphWinFormCSharp
                 default:
                     break;
             }
+
+            return;
         }
 
         private void ReadCsv(string _strFileName)
